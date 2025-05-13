@@ -14,7 +14,7 @@ import pandas as pd
 import numpy as np
 
 # Title of the form
-raw_df = pd.read_csv('D:\\GUVI\\visual_studio\\Fligh Data\\flight_project\\Flight_price_cleaned_data_2.csv')
+raw_df = pd.read_csv('Flight_price_cleaned_data_2.csv')
 st.title("Flight Price Prediction and Passenger Satisfaction Analysis ")
 
 tab1, tab2 = st.tabs(['About', 'Price Prediction'])
