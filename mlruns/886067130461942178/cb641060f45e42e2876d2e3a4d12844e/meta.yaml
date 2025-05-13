@@ -1,0 +1,15 @@
+artifact_uri: file:///d:/GUVI/visual_studio/Fligh%20Data/flight_project/mlruns/886067130461942178/cb641060f45e42e2876d2e3a4d12844e/artifacts
+end_time: 1747152998163
+entry_point_name: ''
+experiment_id: '886067130461942178'
+lifecycle_stage: active
+run_id: cb641060f45e42e2876d2e3a4d12844e
+run_name: Random Forest
+run_uuid: cb641060f45e42e2876d2e3a4d12844e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747152992843
+status: 3
+tags: []
+user_id: com2a

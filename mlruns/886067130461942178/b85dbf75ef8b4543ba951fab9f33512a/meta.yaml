@@ -1,0 +1,15 @@
+artifact_uri: file:///d:/GUVI/visual_studio/Fligh%20Data/flight_project/mlruns/886067130461942178/b85dbf75ef8b4543ba951fab9f33512a/artifacts
+end_time: 1747152979428
+entry_point_name: ''
+experiment_id: '886067130461942178'
+lifecycle_stage: active
+run_id: b85dbf75ef8b4543ba951fab9f33512a
+run_name: Decision Tree CV
+run_uuid: b85dbf75ef8b4543ba951fab9f33512a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747152973751
+status: 3
+tags: []
+user_id: com2a

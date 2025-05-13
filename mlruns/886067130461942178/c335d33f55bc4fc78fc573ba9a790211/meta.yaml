@@ -1,0 +1,15 @@
+artifact_uri: file:///d:/GUVI/visual_studio/Fligh%20Data/flight_project/mlruns/886067130461942178/c335d33f55bc4fc78fc573ba9a790211/artifacts
+end_time: 1747152987176
+entry_point_name: ''
+experiment_id: '886067130461942178'
+lifecycle_stage: active
+run_id: c335d33f55bc4fc78fc573ba9a790211
+run_name: Gradient Boosting
+run_uuid: c335d33f55bc4fc78fc573ba9a790211
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747152979456
+status: 3
+tags: []
+user_id: com2a

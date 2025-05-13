@@ -1,0 +1,15 @@
+artifact_uri: file:///d:/GUVI/visual_studio/Fligh%20Data/flight_project/mlruns/886067130461942178/fe48cd5635354047b8c96b19e7b423a7/artifacts
+end_time: 1747152967697
+entry_point_name: ''
+experiment_id: '886067130461942178'
+lifecycle_stage: active
+run_id: fe48cd5635354047b8c96b19e7b423a7
+run_name: LinearRegression
+run_uuid: fe48cd5635354047b8c96b19e7b423a7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747152950263
+status: 3
+tags: []
+user_id: com2a
