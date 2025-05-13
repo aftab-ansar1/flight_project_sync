@@ -150,7 +150,7 @@ if submit_button:
     df = pd.get_dummies(df, drop_first=True, dtype = int)
     
     
-    mlflow.set_tracking_uri("http://localhost:5000")
+    mlflow.set_tracking_uri("https://dagshub.com/aftab-ansar1/flight_project_sync.mlflow")
     #st.table(df)
     model_name = 'customer_prediction_RF_model'
     version = None 

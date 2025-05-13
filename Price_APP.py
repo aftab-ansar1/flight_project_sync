@@ -86,14 +86,14 @@ with tab2:
         #input_data_1 is datafraame for the date series for prediction.
         #the date series will generate the same data rows with next dates.
         #the number of rows (dates) will be as per the user input
-        input_table1 = pd.DataFrame(columns = ['dur_min', 'stops', 'journey_day', 'dep_time', 'Airline_Air India',
+        input_table1 = pd.DataFrame(columns = ['dur_min', 'stops', 'journey_day', 'dep_time', 'Airline_Air Asia','Airline_Air India',
         'Airline_GoAir', 'Airline_IndiGo', 'Airline_Jet Airways',
         'Airline_Jet Airways Business', 'Airline_Multiple carriers',
         'Airline_Multiple carriers Premium economy', 'Airline_SpiceJet',
-        'Airline_Trujet', 'Airline_Vistara', 'Airline_Vistara Premium economy',
-        'Source_Chennai', 'Source_Delhi', 'Source_Kolkata', 'Source_Mumbai',
+        'Airline_Trujet', 'Airline_Vistara', 'Airline_Vistara Premium economy','Source_Banglore',
+        'Source_Chennai', 'Source_Delhi', 'Source_Kolkata', 'Source_Mumbai','Destination_Banglore',
         'Destination_Cochin', 'Destination_Delhi', 'Destination_Hyderabad',
-        'Destination_Kolkata', 'Destination_New Delhi',
+        'Destination_Kolkata', 'Destination_New Delhi','Additional_Info_1 Long layover',
         'Additional_Info_1 Short layover', 'Additional_Info_2 Long layover',
         'Additional_Info_Business class', 'Additional_Info_Change airports',
         'Additional_Info_In-flight meal not included',
@@ -152,12 +152,14 @@ with tab2:
         import mlflow
         import mlflow.pyfunc
 
-        mlflow.set_tracking_uri("http://localhost:5000")
+        # mlflow.set_tracking_uri("http://localhost:5000")
+        mlflow.set_tracking_uri("https://dagshub.com/aftab-ansar1/flight_project_sync.mlflow")
 
         model_name = 'Flight_price_GB_Model'
         model_version = None
         prediction_model = mlflow.pyfunc.load_model(model_uri=f'models:/{model_name}/{model_version}')
 
+        
         #date-wise price prediction
         predicted_price_date = prediction_model.predict(input_table1)
         predicted_price_date = np.round(predicted_price_date,2)
