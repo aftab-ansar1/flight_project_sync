@@ -27,6 +27,24 @@ with tab1:
              can plan thir journey efficiently.
              The comparision between the prices of other airlines are also predicted for the comaprison of the user''')
 
+st.subheader('Price Analysis')
+st.write('''The app takes the user input As the Source and Destination and gives the Price comparison between different routes, Airlines, number of stops and 
+price trend on different days of a week. This app hepls the passenger to effectively analyse the price trends and plan their journey''')
+
+st.subheader('Customer Satisfaction')
+st.write('''The App takes the journey details with the passengers rating of Inflight and On-boarding services and predicts the satisfaction of a Customer.
+To use the app, fill in all the details and press the submit button. The app will in result gives the Passenger's Satisfaction.
+The app is useful Enhancing customer experience by predicting and addressing dissatisfaction.
+Providing actionable insights for businesses to improve services.
+Supporting marketing teams in identifying target customer groups.
+Assisting management in decision-making for customer retention strategies
+''')
+
+st.subheader('Customer Satisfaction Insight')
+st.write('''TThis page analyse the rating trends of the customers who are Happy and Who are Neutral or Dissatisfied. You can see the ratig trend of different services 
+by different age groups. A clear picture emerges from the rating pattern of the customers can be seen.
+''')
+
 with tab2:
 # Create the form
     form = st.form(key='Price_prediction')
