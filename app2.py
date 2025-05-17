@@ -140,11 +140,11 @@ if submit_button:
         'Checkin service':Checkin_service,
         'Departure/Arrival time convenient': time_convenient
     }
-    d1, d2 = st.columns(2)
-    with d1:
-        st.line_chart(inflight_service)
-    with d2:
-        st.line_chart(Boarding_service)
+    # d1, d2 = st.columns(2)
+    # with d1:
+    #     st.line_chart(inflight_service)
+    # with d2:
+    #     st.line_chart(Boarding_service)
     #Date Pipeline
     df = pd.get_dummies(df, columns=['Class'], dtype = int)
     df = pd.get_dummies(df, drop_first=True, dtype = int)
