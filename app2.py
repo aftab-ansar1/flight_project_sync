@@ -126,7 +126,7 @@ if submit_button:
         'Inflight entertainment':inflight_entertainment,
         'Leg room service':Leg_room_service,
         'Inflight service':inflight_service,
-        'Cleanliness':Cleanliness,
+        'Cleanliness':Cleanliness
     }
 
     
